@@ -42,6 +42,18 @@ h3 {
   margin-bottom: 6px;
 }
 
+div {
+  height: 50px;
+  width: 120px;
+  border-color: #6495ED;
+  background-color: #BCD2EE;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  margin: auto;
+  text-align: center;
+}
+
 .wrap {
   width: 1000px;
   margin: auto;
@@ -52,6 +64,10 @@ h3 {
   width: 240px;
   height: 600px;
   margin-top: 24px;
+}
+
+.sidetext {
+  background-color: white;
 }
 
 .items {
