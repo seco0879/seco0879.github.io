@@ -43,13 +43,13 @@ h3 {
 }
 
 .wrap {
-  width: 960px;
+  width: 1000px;
   margin: auto;
 }
 
 .sidebar {
   position: fixed;
-  width: 200px;
+  width: 240px;
   height: 600px;
   margin-top: 24px;
 }
