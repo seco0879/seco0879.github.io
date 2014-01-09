@@ -66,8 +66,12 @@ h3 {
   text-align: center;
 }
 
+.button a {
+  background-color: inherit;
+}
+
 .sidetext {
-  background-color: white;
+  background-color: inherit;
   color: black;
 }
 
