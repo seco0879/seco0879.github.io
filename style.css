@@ -68,6 +68,8 @@ h3 {
 
 .button a {
   background-color: inherit;
+  color: black;
+  font-style: none;
 }
 
 .sidetext {
