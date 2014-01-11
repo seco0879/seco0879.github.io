@@ -43,6 +43,7 @@ a {
   text-decoration: none;
 }
 a:visited {
+  color: white;
   text-decoration: none;
 }
 .button:hover {
