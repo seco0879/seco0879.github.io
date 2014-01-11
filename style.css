@@ -1,91 +1,51 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
-  background-color:black;
-}
-
-html, body {
-  height: 100%;
-}
-
 body {
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: 400;
-  color: white;
-  font-size: 13pt;
-  -webkit-font-smoothing: antialiased;
+  margin: 0px;
+  padding: 0px;
+  background-color: #CFD0E6;
 }
-
-hr {
-  height: 1px;
-  background: #ccc;
+#myname{
+  float: left;
+  color: #CFD0E6;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 30px;
 }
-
-a {
-  color: white;
-}
-
-h2 {
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 12px;
-}
-
-h3 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 6px;
-}
-
-.wrap {
-  width: 1000px;
-  margin: auto;
-}
-
-.sidebar {
+.navigation {
+  margin: 0px;
+  background-color: #24285C;
   position: fixed;
-  width: 240px;
-  height: 600px;
-  margin-top: 24px;
+  height: 90px;
+  width: 100%;
+  /*opacity: .9;*/
+  font-family: sans-serif;
+  z-index: 1;
 }
-
 .button {
-  height: 25px;
-  width: 120px;
-  border-color: #6495ED;
-  background-color: #BCD2EE;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 5px;
-  margin: auto;
-  text-align: center;
-}
-
-.button a {
-  background-color: inherit;
-  color: black;
-  font-style: none;
-}
-
-.sidetext {
-  background-color: inherit;
-  color: black;
-}
-
-.items {
-  margin-left: 240px;
-  width: 760px;
-  text-align: center;
-  padding: 0 24px;
-}
-
-.item {
   display: inline-block;
-  text-align: left;
-  margin: 24px 0;
+  float: right;
+  height: 30px;
+  width: 110px;
+  margin-top: 60px;
+  margin-right: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #9192B5;
+  text-align: center;
+  line-height: 30px;
+}
+#current {
+  background-color: #CFD0E6;
+}
+.button:hover {
+  color: blue;
+  border-color: red;
+}
+.stuff {
+  position: absolute;
+  margin: 80px;
+  margin-top: 120px;
+}
+.description {
+  margin: 0% 0% 50% 0%;
+  font-size: 14pt;
 }
