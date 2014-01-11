@@ -39,6 +39,9 @@ body {
   color: black;
   font-weight: normal;
 }
+a {
+  text-decoration: none;
+}
 .button:hover {
   font-weight: bold;
   border: 2px solid white;
