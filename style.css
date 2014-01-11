@@ -1,20 +1,20 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #CFD0E6;
+  background-color: white;
 }
 #myname{
   float: left;
-  color: #CFD0E6;
-  font-size: 40px;
-  margin-top: 20px;
+  color: white;
+  font-size: 45px;
+  margin-top: 30px;
   margin-left: 30px;
 }
 .navigation {
   margin: 0px;
-  background-color: #24285C;
+  background-color: #625F31;
   position: fixed;
-  height: 90px;
+  height: 130px;
   width: 100%;
   /*opacity: .9;*/
   font-family: sans-serif;
@@ -25,27 +25,36 @@ body {
   float: right;
   height: 30px;
   width: 110px;
-  margin-top: 60px;
+  margin-top: 100px;
   margin-right: 5px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-color: #9192B5;
   text-align: center;
   line-height: 30px;
+  color: white;
 }
 #current {
-  background-color: #CFD0E6;
+  background-color: white;
+  color: black;
+  font-weight: normal;
 }
 .button:hover {
-  color: blue;
-  border-color: red;
+  font-weight: bold;
 }
 .stuff {
   position: absolute;
   margin: 80px;
-  margin-top: 120px;
+  margin-top: 200px;
+}
+.pic {
+  float: left;
 }
 .description {
-  margin: 0% 0% 50% 0%;
+  display: inline-block;
+  float: right;
+  margin-left: 15px;
   font-size: 14pt;
+}
+p {
+  margin: 0%;
 }
